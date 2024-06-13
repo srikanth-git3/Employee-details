@@ -1,6 +1,6 @@
 <html>
 <body>
-<h2>Hello Welcome to my channel!</h2>
+<h2>Hello Welcome to JK channel!</h2>
 <h2>This is teksacademy</h2>
 <h2>welcome to teksacademy-1</h2>
 </body>
