@@ -17,6 +17,14 @@
   </dependencies>
   <build>
     <finalName>web-application</finalName>
+    <pluginManagement>
+  <plugins>
+    <plugin>
+      <artifactId>maven-war-plugin</artifactId>
+      <version>3.2.2</version>
+    </plugin>
+  </plugins>
+  </pluginManagement>
   </build>
   <distributionManagement>
       <snapshotRepository>
@@ -29,10 +37,4 @@
       </repository>
     </distributionManagement>
 </project>
-</build>
-<plugin>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-war-plugin</artifactId>
-    <version>3.3.2</version>
-</plugin>
-</project>
+
