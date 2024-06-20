@@ -5,7 +5,7 @@ pipeline {
 }
 
     tools{
-        maven 'Apache Maven 3.6.3'
+        maven 'Apache Maven 3.8.7'
     }
     options {
   buildDiscarder logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '', daysToKeepStr: '5', numToKeepStr: '2')
@@ -28,7 +28,7 @@ pipeline {
 
 stage('Deploy to tomcat') {
             steps {
-            deploy adapters: [tomcat8(credentialsId: 'Tomcat_username_password', path: '', url: 'http://34.224.80.135:9090/')], contextPath: null, war: '**/*.war'
+            deploy adapters: [tomcat8(credentialsId: 'Tomcat_username_password', path: '', url: 'http://3.80.252.82:9090/')], contextPath: null, war: '**/*.war'
                  }
     }
 }
