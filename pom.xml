@@ -26,6 +26,10 @@
       </plugin>
     </plugins>
   </build>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>teksacademy.com</groupId>
+  <artifactId>employee-form</artifactId>
+  <version>1.0</version>
   <distributionManagement>
     <snapshotRepository>
       <id>nexus-snapshots</id>
