@@ -7,14 +7,14 @@
   <version>1.0-SNAPSHOT</version>
   <name>web-application Maven Webapps</name>
   <url>http://maven.apache.org</url>
- 
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
     </dependency>
-   
+
   </dependencies>
   <build>
     <finalName>web-application-war-file</finalName>
@@ -26,18 +26,4 @@
       </plugin>
     </plugins>
   </build>
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>teksacademy.com</groupId>
-  <artifactId>employee-form</artifactId>
-  <version>1.0</version>
-  <distributionManagement>
-    <snapshotRepository>
-      <id>nexus-snapshots</id>
-      <url>http://13.127.96.31:8081/repository/maven-snapshots/</url>
-    </snapshotRepository>
-    <repository>
-      <id>nexus-releases</id>
-     <url>http://13.127.96.31:8081/repository/maven-releases/</url>
-    </repository> 
-  </distributionManagement>
 </project>
