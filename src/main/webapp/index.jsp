@@ -17,7 +17,6 @@
    <p>
          <input type = "radio" name = "Gender" value = "Male"> Male
          <input type = "radio" name = "Gender" value = "Female"> Female
-	 <input type = "radio" name = "Gender" value = "Female"> NA
 </p>
  
 <p>
